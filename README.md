@@ -8,9 +8,9 @@ It is based on 2 elements:
 * a file format to define your different projects inside the git repository
 * a tool to read the config files and simplify git sparse-checkout commands (git clone is no more efficient)
 
-The goal is not replace git but simplify its management for multi-projects repository.
+*The goal is not replace git but simplify its management for multi-projects repository.*
 
-> And for whose who don't think that one git repository for all project is good practise: [google did it](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/) so why not someon else.
+> And for whose who don't think that one repository for all project is good practise: [google did it](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/) so why not someone else.
 
 ## Install
 
@@ -27,13 +27,20 @@ npm install -g git-project
 
 In order to use **git-project**, follow these steps:
 
+### Define your project in the repository
+
 On your repository:
+
 1. create a .gitprc config file in the repository you can to checkout
 2. define your project in the .gitprc file (see [example](https://github.com/thibaultfriedrich/git-project-example/blob/master/.gitprc))
 
-### As a CLI
+> The syntax of the config file is YAML.
 
-Where you want to checkout only a sub part of the repository:
+### Checkout the projects you want
+
+Then to checkout only targeted projects in a empty directory: 
+
+#### As a CLI
 
 1. `npm install -g git-project` to install **git-project** on your computer
 2. use command `gitp init [<ref>] <url>` to define the repository to pull
@@ -42,7 +49,7 @@ Where you want to checkout only a sub part of the repository:
 
 > Onyl this 3 commands exists, use standard git commands for other operations.
 
-### As a node module
+#### As a node module
 
 ```javascript
 var gitp = require('git-project')(<dirname>);
