@@ -33,7 +33,7 @@ On your repository:
 
 Where you want to checkout only a sub part of the repository:
 
-1. `npm install -g gitp` to install **git-project** on your computer
+1. `npm install -g git-project` to install **git-project** on your computer
 2. use command `gitp init [<ref>] <url>` to define the repository to pull
 3. use command `gitp config project <project1> <project2>` to define the projects to pull
 4. use command `gitp pull <ref> <branch>` and it will automatically pull what you want
@@ -43,7 +43,7 @@ Where you want to checkout only a sub part of the repository:
 ### As a node module
 
 ```javascript
-var gitp = require('gitp')(<dirname>);
+var gitp = require('git-project')(<dirname>);
 
 gitp.init(<url>, [<ref>,] callback);
 gipt.configureProjects([<project1>, <project2>, ..], callback);
