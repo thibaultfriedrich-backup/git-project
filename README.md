@@ -38,7 +38,7 @@ On your repository:
 
 ### Checkout the projects you want
 
-Then to checkout only targeted projects in a empty directory: 
+Then to checkout only targeted projects in a empty directory:
 
 #### As a CLI
 
@@ -47,7 +47,7 @@ Then to checkout only targeted projects in a empty directory:
 3. use command `gitp config project <project1> <project2>` to define the projects to pull
 4. use command `gitp pull <ref> <branch>` and it will automatically pull what you want
 
-> Onyl this 3 commands exists, use standard git commands for other operations.
+> Only this 3 commands exists, use standard git commands for other operations.
 
 #### As a node module
 
