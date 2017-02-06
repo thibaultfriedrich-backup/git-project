@@ -1,0 +1,5 @@
+repository:
+    origin: https://github.com/thibaultfriedrich/git-project
+checkout:
+    - package.json
+    - README.md

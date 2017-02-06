@@ -1,0 +1,36 @@
+{
+  "name": "git-project",
+  "version": "0.1.0",
+  "description": "The goal of this project is to add features to git for sub projects management.",
+  "main": "src/git-project.js",
+  "bin": {
+    "gitp": "bin/gitp.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thibaultfriedrich/git-project.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Thibault Friedrich <thibault.friedrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thibaultfriedrich/git-project/issues"
+  },
+  "homepage": "https://github.com/thibaultfriedrich/git-project#readme",
+  "dependencies": {
+    "fs-extra": "^2.0.0",
+    "js-yaml": "^3.7.0",
+    "simple-git": "^1.65.0",
+    "winston": "^2.3.1",
+    "command-line-args": "^3.0.1",
+    "command-line-usage": "^3.0.3"
+  }
+}
