@@ -1,6 +1,8 @@
 # git-project
 
-With **git-project**, you can manage the projects to checkout even if these are all in the same git repository. It uses the new feature available in git v1.7: *sparse-checkout*.
+When you have a multi-projects git repository, you may want to checkout only one part. It is possible with the new feature available in git v1.7: *sparse-checkout* but it is still painful.
+
+With **git-project**, manage your projects in the git to easily define what you want to checkout.
 
 It is based on 2 elements:
 * a file format to define your different projects inside the git repository
