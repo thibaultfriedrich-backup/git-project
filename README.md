@@ -16,10 +16,10 @@ The goal is not replace git but simplify its management for multi-projects repos
 
 ```bash
 # as a node module
-npm install gitp
+npm install git-project
 
 # as a cli
-npm install -g gitp
+npm install -g git-project
 ```
 
 

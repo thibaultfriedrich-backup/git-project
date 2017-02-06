@@ -71,7 +71,7 @@ module.exports = function (dirname) {
                     throw 'Project "'+selectedProject+'" not found';
                 }
             }
-            console.log(paths);
+            // console.log(paths);
             fs.writeFileSync(gitSparseCheckoutFilename, paths.join('\n'));
         }
 
